@@ -180,6 +180,9 @@ body{
    color: #fff;
    background: var(--color-btn);
    transition: background .3s ease-out;
+   max-width: 260px;
+   width: 100%;
+   text-align: center;
 }
 
 .hero-link:hover{
