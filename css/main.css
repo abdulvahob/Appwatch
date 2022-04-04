@@ -29,7 +29,6 @@ body{
    display: flex;
    flex-direction: column;
    flex-wrap: 1;
-   position: ;
    font-family:var(--roboto) ;
    background-color: #fff;
 }
@@ -58,6 +57,14 @@ body{
 }
 .header-logos{
    display: flex;
+   margin-right: 10px;
+   transition: all .3s ease-out;
+}
+.header-logos:hover{
+   opacity: .8;
+}
+.header-logos:active{
+   opacity: .6;
 }
 .header-logo{
    padding: 0;
@@ -267,6 +274,9 @@ body{
    display: flex;
    justify-content: space-between;
    align-items: center;
+}
+.about-content{
+   margin-right: 10px;
 }
 .about-img {
    max-width: 400px;
