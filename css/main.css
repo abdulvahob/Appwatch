@@ -29,6 +29,7 @@ body{
    display: flex;
    flex-direction: column;
    flex-wrap: 1;
+   position: ;
    font-family:var(--roboto) ;
    background-color: #fff;
 }
@@ -231,7 +232,7 @@ body{
    text-decoration: none;
 }
 .card-link{
-   display: flex;
+   display: inline-flex;
    align-items: center;
    text-decoration: none;
    color: var(--color-btn);
